@@ -1,0 +1,533 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+:root{
+    --color-1: black;
+    --color-2:rgb(160, 156, 156);
+
+}
+
+
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .signin-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.left img{
+    width: 95%;
+    height: 100vh;
+}
+.head-content{
+    text-align: center;
+    margin: 30px;
+}
+.input-boxes .para{
+    color: grey;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+.input-boxes a{
+    color: blue;
+}
+.input-boxes .label{
+    color: black;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.input-boxes input{
+    margin: 0 0 20px 0;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid rgb(175, 170, 170);
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.buttons button{
+    padding: 9px  20px;
+    border-radius: 3px;
+    background-color: blue;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.buttons a{
+    color: blue;
+}
+.buttons button a{
+    color: white;
+}
+.icons i{
+    font-size: 30px;
+    color: rgb(160, 160, 160);
+    margin-right: 20px;
+    margin-top: 5px;
+} 
+
+.content-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+aside{
+    background-color: white;
+    width: 20%;
+    height: 100vh;
+    /* display: none; */
+    border-radius: 5px;
+}
+.justrise-logo img,.user-logo img{
+    width: 50px;
+    height: 50px;
+}
+aside .logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    
+}
+.app-p{
+    color: var(--color-2);
+    margin: 20px 0 20px 15px;
+    font-size: 14px;
+
+}
+.username .user-para{
+    color: var(--color-2) ;
+}
+aside .user-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+aside .links ul li{
+    text-decoration: none;
+    color: var(--color-1);
+    padding: 10px;
+
+}
+li span{
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    
+}
+.cal-num{
+    background-color: green;
+    color: white;
+    padding: 2px 8px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+.mail-num{
+    background-color: red;
+    color: white;
+    padding: 2px 8px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+.ul-tags{
+    position: relative;
+}
+.ul-tags li img{
+    width: 18px;
+    height: 17px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.ul-tags li:hover{
+    background-color: rgb(226, 224, 224);
+}
+
+.section-container{
+    width: 100%;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 10px;
+    color: var(--color-2);
+    line-height: 40px;
+    align-items: center;
+    margin-top: 20px;
+}
+.nav-links p {
+    display: flex;
+    margin-right: 30px;
+}
+
+nav img{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.nav-icons i{
+    padding: 10px;
+    margin-left: 8px;
+}
+.nav-links{
+    display: flex;
+    line-height: 50px;
+    
+}
+p:hover{
+    color: var(--color-1);
+}
+nav i:hover{
+    color: var(--color-1);
+}
+.nav-links p i{
+    margin-top: 16px;
+}
+.nav-links p span{
+    background-color: rgb(200, 180, 219);
+    color: blue;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.dashboard-container{
+    width: 100%;
+    margin: 40px 10px;
+    padding: 20px 10px;
+   
+}
+.h1{
+    margin: 10px 10px 30px 10px;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    padding-bottom: 30px;
+}
+
+.sales-card{
+    background-color: white;
+    display: flex;
+    width: 37%;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+}
+.cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+.img-card img,.img-card1 img,.img-card2 img{
+    width: 20px;
+}
+.img-card{
+    background-color: rgb(217, 217, 247);
+    display: inline-block;
+    height: fit-content;
+    padding: 12px 12px 10px 12px;
+    border-radius: 5px;   
+}
+.img-card1{
+    background-color: rgb(245, 219, 170);
+    display: inline-block;
+    height: fit-content;
+    padding: 12px 12px 10px 12px;
+    border-radius: 5px;   
+}
+.img-card2{
+    background-color: rgb(247, 199, 199);
+    display: inline-block;
+    height: fit-content;
+    padding: 12px 13px 10px 13px;
+    border-radius: 5px;   
+}
+.price-tag{
+    margin-left: 20px;
+}
+.price-tag p{
+    font-size: 12px;
+    color: var(--color-2);
+    padding-bottom: 10px;
+}
+.price-tag h2{
+    margin-bottom: 10px;
+}
+.h1 h1{
+    font-size: 2.3rem;
+}
+
+.card-1{
+    display: flex;
+}
+.percentage{
+    background-color: rgb(230, 175, 175);
+    color: red;
+    height: fit-content;
+    padding: 5px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    display: flex;
+    gap: 2px;
+}
+.percentage1{
+    background-color: rgb(120, 216, 120);
+    color: green;
+    height: fit-content;
+    padding: 5px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    display: flex;
+    gap: 2px;
+}
+.task1{
+    
+    background-color: white;
+    width: 35%;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+
+} 
+.active-task img{
+    width: 20px;
+}
+.img-note{
+    background-color: rgb(202, 245, 202);
+    display: inline-block;
+    height: fit-content;
+    padding: 12px 12px 10px 12px;
+    border-radius: 5px;
+}
+.img-security{
+    background-color:rgb(206, 206, 245) ;
+}
+.img-clock{
+    background-color: rgb(214, 170, 214) ;
+}
+.img-puzzle{
+    background-color: rgb(250, 213, 164) ;
+}
+.img-drop{
+    background-color: rgb(240, 187, 187);
+}
+.active-task{
+    display: flex;
+}
+.tasks{
+    display: flex;
+    width: 100%;
+    font-size: 14px;
+    
+}
+.task-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.task-title p{
+    background-color: rgb(218, 248, 218);
+    color: green !important;
+    border-radius: 5px;
+    padding: 4px 10px;
+    font-size: 11px;
+}
+.task1 .p{
+    color: var(--color-2);
+    padding: 10px 0 20px 0;
+}
+.task-name{
+    padding: 0 20px ;
+    margin: 10px 0 20px 0;
+}
+.task-name progress{
+    width: 100%;
+}
+.img-note #checkbox{
+    width: 50px ;
+}
+.active-task1{
+    display: flex;
+    align-items: center;
+}
+#chart{
+    width: 79%;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 0 10px 10px;
+    padding: 10px;
+}
+.chart-report{
+    display: flex;
+    width: 100%;
+}
+.report{
+    width: 40%;
+    background-color: rgb(243, 243, 243);
+    margin: 10px 10px 10px 0;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.report-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.report-title p{
+    background-color: rgb(197, 197, 238);
+    color: blue;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 3px 5px;
+}
+.report-title-p{
+    margin-bottom: 20px;
+}
+.planet-container div{
+    background-color: white;
+    color: black;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin-bottom: 1px;
+}
+.planet p i{
+    font-size: 12px;
+}
+.planet-percen-1{
+    color: green;
+
+}
+.planet-percen-2{
+    color: red;
+
+}
+.planet{
+    display: flex;
+    justify-content: space-between;
+}
+.login-access{
+    width: 100%;
+    display: flex;
+    border-radius: 5px;
+}
+.blog{
+    background-color: white;
+    color: black;
+    width: 79%;
+    margin: 10px;
+    line-height: 23px;
+    border-radius: 5px;
+}
+.blog-p{    
+    padding: 20px 20px 20px 100px;
+}
+.blog-time{
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+    align-items: center;
+}
+.blog-time p{
+    color: rgb(145, 143, 143);
+}
+.blog-time button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+.connection{
+    width: 40%;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.connect-box{
+    display: flex;
+    justify-content: space-between;
+}
+.connect-box p{
+    background-color: rgb(247, 230, 200);
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+.person-box{
+    display: flex;
+    padding: 15px ;
+}
+.person-box img{
+    width: 60px;
+    margin-right: 10px;
+}
+.person-box div {
+    line-height: 23px;
+}
+.person-box div p{
+    color: rgb(155, 152, 152);
+}
+.button-user{
+    width: 100%;
+}
+.button-user button{
+    width: 49%;
+}
+.accept-btn{
+    background-color: rgb(209, 209, 240);
+    color: blue;
+    border: none;
+    padding: 6px 0;
+    border-radius: 5px;
+}
+.ignore-btn{
+    background-color: rgb(236, 204, 204);
+    color: red;
+    border-radius: 5px;
+    border: none;
+    padding: 6px 0;
+}
+
+ @media screen and (max-width:600px) { */
+    .left img{
+        display:none;
+    }
+    .signin-container{
+        width: 70%; 
+        height: 100vh;
+    }
+    
+
+    
+    
+} 
